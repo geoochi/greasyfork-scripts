@@ -2,7 +2,7 @@
 // @name        小红书feed删除
 // @homepage
 // @icon
-// @version     0.3
+// @version     0.4
 // @description 自动删除小红书页面上的推荐并上下左右居中搜索框
 // @author      geoochi
 // @license     MIT
@@ -11,7 +11,12 @@
 // @namespace https://greasyfork.org/users/1262095
 // ==/UserScript==
 
-;(function () {
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+;(async function () {
+  await sleep(500);
   const mfContainer = document.getElementById('mfContainer')
   mfContainer.remove()
 
