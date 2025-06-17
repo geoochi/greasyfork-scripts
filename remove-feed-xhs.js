@@ -2,7 +2,7 @@
 // @name        小红书feed删除
 // @homepage
 // @icon
-// @version     0.4
+// @version     0.5
 // @description 自动删除小红书页面上的推荐并上下左右居中搜索框
 // @author      geoochi
 // @license     MIT
@@ -21,5 +21,5 @@ function sleep(ms) {
   mfContainer.remove()
 
   const searchBar = document.getElementsByClassName('input-box')[0]
-  searchBar.style.cssText = 'position: absolute; left: 50vw; top: 30vh;'
+  searchBar.style.cssText = 'position: absolute; top: 30vh;'
 })()
