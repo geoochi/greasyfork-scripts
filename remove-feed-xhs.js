@@ -2,12 +2,12 @@
 // @name        小红书feed删除
 // @homepage
 // @icon
-// @version     0.2
+// @version     0.3
 // @description 自动删除小红书页面上的推荐并上下左右居中搜索框
 // @author      geoochi
 // @license     MIT
 // @grant       none
-// @match       https://xiaohongshu.com/explore
+// @match       https://www.xiaohongshu.com/explore
 // @namespace https://greasyfork.org/users/1262095
 // ==/UserScript==
 
