@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name        remove-feed-xhs
+// @name        小红书feed删除
 // @homepage
 // @icon
-// @version     0.1
+// @version     0.2
 // @description 自动删除小红书页面上的推荐并上下左右居中搜索框
 // @author      geoochi
 // @license     MIT
