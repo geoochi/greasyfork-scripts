@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        小红书feed删除
+// @name        小红书聚焦搜索
 // @homepage
 // @icon
-// @version     0.5
-// @description 自动删除小红书页面上的推荐并上下左右居中搜索框
+// @version     0.6
+// @description 自动删除小红书页面上的navbar、推荐流以及其他信息，只留下搜索框
 // @author      geoochi
 // @license     MIT
 // @grant       none
@@ -16,10 +16,13 @@ function sleep(ms) {
 }
 
 ;(async function () {
-  await sleep(500);
-  const mfContainer = document.getElementById('mfContainer')
-  mfContainer.remove()
+  await sleep(300);
+  document.getElementById('mfContainer').remove()
+  
+  document.getElementsByClassName('mask-paper')[0].getElementsByClassName('active router-link-exact-active')[0].remove()
+  document.getElementsByClassName('mask-paper')[0].getElementsByClassName('right')[0].remove()
+  
+  document.getElementsByClassName('side-bar')[0].remove()
 
-  const searchBar = document.getElementsByClassName('input-box')[0]
-  searchBar.style.cssText = 'position: absolute; top: 30vh;'
+  document.getElementsByClassName('input-box')[0].style.cssText = 'position: absolute; top: 30vh;'
 })()
