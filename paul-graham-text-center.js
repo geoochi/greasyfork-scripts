@@ -2,13 +2,13 @@
 // @name        paul-graham-text-center
 // @homepage
 // @icon
-// @version     0.1
+// @version     0.2
 // @description set paul graham page text to center
 // @author      geoochi
 // @license     MIT
 // @grant       none
-// @match       http://paulgraham.com/*
-// @match       https://paulgraham.com/*
+// @match       http://*.paulgraham.com/*
+// @match       https://*.paulgraham.com/*
 // @namespace https://greasyfork.org/users/1262095
 // ==/UserScript==
 
