@@ -7,7 +7,7 @@
 // @author      geoochi
 // @license     MIT
 // @grant       none
-// @match       http://*.paulgraham.com/*
+// @match       https://blog.samaltman.com/*
 // @match       https://*.paulgraham.com/*
 // @namespace https://greasyfork.org/users/1262095
 // ==/UserScript==
